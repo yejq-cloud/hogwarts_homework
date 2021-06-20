@@ -1,0 +1,16 @@
+dates1:
+  #float
+  - [0.1,0.1,0.2]
+  #int
+  - [1,1,2]
+  #int+float
+  - [1,0.1,1.1]
+  #neg+neg
+  - [-1,-1,-2]
+  #neg+pos
+  - [10,-5,5]
+  - [-10,5,-5]
+  #big
+  - [500,888,1388]
+
+ids1: ["float","int","int+float","neg+neg","neg+pos1","neg+pos2","big"]
