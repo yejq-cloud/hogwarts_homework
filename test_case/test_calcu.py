@@ -32,6 +32,7 @@ class TestAdd():
         calc = Calculator()
         assert expect == calc.add(a, b)
 
+#获取数据函数
 def get_calcdiv_dates():
     with open("./dates/calcu_div.yaml") as g:
         totals2 = yaml.safe_load(g)
