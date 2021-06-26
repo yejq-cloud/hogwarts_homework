@@ -39,4 +39,5 @@ def test_load_cookie():
     driver.find_element_by_id("memberAdd_english_name").send_keys("基哥")
     driver.find_element_by_xpath('//*[@id = "memberAdd_acctid"]').send_keys("4253462")
     driver.find_element(By.ID,"memberAdd_phone").send_keys("13789892222")
-    driver.find_element(By.CSS_SELECTOR,"a.qui_btn.ww_btn.js_btn_save")
+    driver.find_element(By.CSS_SELECTOR,"a.qui_btn.ww_btn.js_btn_save").click()
+    time.sleep(3)
