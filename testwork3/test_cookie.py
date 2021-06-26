@@ -27,14 +27,12 @@ def test_load_cookie():
         yaml_date = yaml.safe_load(f)   #yaml反序列化
     for cookie in yaml_date:
         driver.add_cookie(cookie)
-
     driver.get("https://work.weixin.qq.com/wework_admin/frame#index")
+    #点击通讯录
     driver.find_element_by_id("menu_contacts").click()
-    time.sleep(3)
+    #点击添加成员，进入界面
     driver.find_element(By.CSS_SELECTOR, "div:nth-child(1) > a.qui_btn.ww_btn.js_add_member").click()
-
-    # driver.find_element(By.CSS_SELECTOR,"div.ww_inputWithTips_tips").send_keys("测试员1")
-    time.sleep(3)
+    #输入相关信息，最后点击保存
     driver.find_element(By.XPATH,'//*[@id = "username"]').send_keys("测开学员1")
     driver.find_element_by_id("memberAdd_english_name").send_keys("基哥")
     driver.find_element_by_xpath('//*[@id = "memberAdd_acctid"]').send_keys("4253462")
