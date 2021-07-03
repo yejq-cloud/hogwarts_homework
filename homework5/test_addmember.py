@@ -21,7 +21,7 @@ class TestAddMember():
         caps["appActivity"] = ".launch.LaunchSplashActivity"
         caps["deviceName"] = "hogwarts"
         caps["noReset"] = "true"
-        # 至关重要的一行，与Appium服务建立连接，并传递一个caps字典对象
+
         self.driver = webdriver.Remote("http://localhost:4723/wd/hub", caps)
         self.driver.implicitly_wait(15)
     def teardown(self):
