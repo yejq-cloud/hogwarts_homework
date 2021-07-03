@@ -24,10 +24,11 @@ class TestAddMember():
 
         self.driver = webdriver.Remote("http://localhost:4723/wd/hub", caps)
         self.driver.implicitly_wait(15)
+
     def teardown(self):
         self.driver.quit()
 
-    # @pytest.mark.parametrize('[name,phonenumber]', "[['赵云','13376871235'],['马超'，'13367545671']]")
+    # @pytest.mark.parametrize('name,phonenumber', "[('赵云','13376871235'),('马超'，'13367545671')]")
     def test_addmember(self):
         self.driver.find_element(MobileBy.XPATH," //* [@text='通讯录']").click()
         sleep(5)
