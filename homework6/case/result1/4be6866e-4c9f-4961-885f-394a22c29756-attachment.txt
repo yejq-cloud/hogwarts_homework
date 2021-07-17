@@ -1,0 +1,25 @@
+[32mINFO    [0m root:basepage.py:17 find_and_click
+[32mINFO    [0m root:basepage.py:17 find
+[32mINFO    [0m root:basepage.py:17 xpath
+[32mINFO    [0m root:basepage.py:17  //* [@text='通讯录']
+[32mINFO    [0m root:basepage.py:17 find_and_click
+[32mINFO    [0m root:basepage.py:17 find
+[32mINFO    [0m root:basepage.py:17 -android uiautomator
+[32mINFO    [0m root:basepage.py:17 new UiScrollable(new UiSelector().scrollable(true).                                 instance(0)).scrollIntoView(new UiSelector().                                 text("添加成员").instance(0));
+[32mINFO    [0m root:basepage.py:17 find_and_click
+[32mINFO    [0m root:basepage.py:17 find
+[32mINFO    [0m root:basepage.py:17 xpath
+[32mINFO    [0m root:basepage.py:17 //* [@text='手动输入添加']
+[32mINFO    [0m root:basepage.py:17 find_and_sendkeys
+[32mINFO    [0m root:basepage.py:17 find
+[32mINFO    [0m root:basepage.py:17 id
+[32mINFO    [0m root:basepage.py:17 com.tencent.wework:id/b09
+[32mINFO    [0m root:basepage.py:17 find_and_sendkeys
+[32mINFO    [0m root:basepage.py:17 find
+[32mINFO    [0m root:basepage.py:17 id
+[32mINFO    [0m root:basepage.py:17 com.tencent.wework:id/f7y
+[32mINFO    [0m root:basepage.py:17 find_and_click
+[32mINFO    [0m root:basepage.py:17 find
+[32mINFO    [0m root:basepage.py:17 id
+[32mINFO    [0m root:basepage.py:17 com.tencent.wework:id/ad2
+[32mINFO    [0m root:basepage.py:17 get_toast_text

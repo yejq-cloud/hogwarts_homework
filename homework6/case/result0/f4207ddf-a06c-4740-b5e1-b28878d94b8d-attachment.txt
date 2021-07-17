@@ -1,0 +1,8 @@
+[32mINFO    [0m root:basepage.py:17 find_and_click
+[32mINFO    [0m root:basepage.py:17 find
+[32mINFO    [0m root:basepage.py:17 xpath
+[32mINFO    [0m root:basepage.py:17  //* [@text='通讯录']
+[32mINFO    [0m root:basepage.py:17 find_and_click
+[32mINFO    [0m root:basepage.py:17 find
+[32mINFO    [0m root:basepage.py:17 -android uiautomator
+[32mINFO    [0m root:basepage.py:17 new UiScrollable(new UiSelector().scrollable(true).                                 instance(0)).scrollIntoView(new UiSelector().                                 text("添加成员").instance(0));
