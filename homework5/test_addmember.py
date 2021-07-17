@@ -40,7 +40,7 @@ class TestAddMember():
         sleep(5)
         self.driver.find_element(MobileBy.XPATH,"//* [@text='手动输入添加']").click()
         self.driver.find_element(MobileBy.ID,"com.tencent.wework:id/b09").send_keys("name")
-        self.driver.find_element(MobileBy.ID,"com.tencent.wework:id/f7y").send_keys("13678654568")
+        self.driver.find_element(MobileBy.ID,"com.tencent.wework:id/f7y").send_keys("13678654234")
         self.driver.find_element(MobileBy.ID,"com.tencent.wework:id/ad2").click()
 
         toast = self.driver.find_element_by_xpath("//*[@class='android.widget.Toast']").text
