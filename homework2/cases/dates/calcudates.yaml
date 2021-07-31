@@ -1,0 +1,63 @@
+dates:
+    add_dates:
+      #float
+      - [0.1,0.1,0.2]
+      #int
+      - [1,1,2]
+      #int+float
+      - [1,0.1,1.1]
+      #neg+neg
+      - [-1,-1,-2]
+      #neg+pos
+      - [10,-5,5]
+      - [-10,5,-5]
+      #big
+      - [1000,999,1999]
+    munis_dates:
+    #float
+      - [0.1,0.1,0]
+      #int
+      - [1,1,0]
+      #int+float
+      - [1,0.1,0.9]
+      #neg+neg
+      - [-1,-1,0]
+      #neg+pos
+      - [10,-5,15]
+      - [-10,5,-15]
+      #zero
+      - [1,0,1]
+    mcl_dates:
+    #float
+      - [0.1,0.1,0.01]
+      #int
+      - [1,1,1]
+      #int+float
+      - [1,0.1,0.1]
+      #neg+neg
+      - [-1,-1,1]
+      #neg+pos
+      - [10,-5,-50]
+      - [-10,5,-50]
+      #zero
+      - [1,0,0]
+    div_dates:
+      #float
+      - [0.1,0.1,1]
+      #int
+      - [1,1,1]
+      #int+float
+      - [1,0.1,10]
+      #neg+neg
+      - [-1,-1,1]
+      #neg+pos
+      - [10,-5,-2]
+      - [-10,5,-2]
+      #zero
+      - [1,0,0]
+
+ids:  ["int", "float", "int+float", "neg+neg", "neg+pos1", "neg+pos1", "zero/big"]
+
+
+
+

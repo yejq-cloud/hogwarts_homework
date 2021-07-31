@@ -1,0 +1,3 @@
+[32mINFO    [0m root:calculator.py:11 add
+[32mINFO    [0m root:calculator.py:11 1
+[32mINFO    [0m root:calculator.py:11 0.1
